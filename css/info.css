@@ -1,0 +1,171 @@
+@import url(./style.css);
+
+
+.go-back-btn{
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	width: fit-content;
+
+	background-color: var(--lightgray);
+	border-radius: 0;
+}
+
+
+.go-back-btn:hover{
+	background-color: var(--gray);
+	color: var(--black);
+}
+
+.goback-btn:active{
+	color: var(--yellow);
+}
+
+.product-info{
+	margin-top: 1.5rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.product-title{
+	font-size: 1.75rem;
+	text-transform: uppercase;
+	padding: 1.5rem 0;
+}
+
+.product-info .text-default{
+	text-align: left;
+}
+
+.product-price{
+	font-weight: 700;
+	padding: 1.5rem 0;
+
+}
+
+.product-buttons{
+	flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.quantity-section{
+	background-color: var(--lightgray);
+	width: 7.5rem;
+	height: 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 0.9375rem;
+	font-weight: 700;
+}
+
+.features{
+	display: flex;
+	flex-direction: column;
+	gap: 5.5rem;
+}
+
+.includes{
+	margin-left: 1.5rem;
+}
+
+
+.includes-title{
+	font-size: 2rem;
+	text-transform: uppercase;
+	margin-bottom: 2rem;
+}
+
+.includes-list{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.includes-list-item{
+	gap: 1.5rem;
+	font-weight: 500;
+	font-size: 1rem;
+	line-height: 1.5625rem;
+	list-style: none;
+	text-align: left;
+}
+
+.includes-list-item::before{
+	content: "\2022";
+	color: var(--mintgreen);
+	font-weight: bold;
+	display: inline-block;
+	width: 2em;
+	margin-left: 1em; 
+}
+
+.product-gallery{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 1.25rem;
+}
+
+.gallery-wrap{
+	height: 100%;
+}
+
+.img-gallery{
+	width: 100%;
+	border-radius: 0.5rem;
+}
+
+
+.img-gallery:first-child{
+	margin-bottom: 1.25rem;
+}
+
+
+@media (min-width: 768px) {
+	.product-info{
+		gap: 6rem;
+		align-items: center;
+		flex-direction: row;
+	}
+
+	.product-image{
+		width: 25rem;
+	}
+
+	.product-title{
+		padding: 1.0625rem 0 2rem;
+	}
+
+	.product-price{
+		padding: 1.5rem 0;
+	}
+
+	.includes{
+		display: flex;
+		gap: 5rem;
+		justify-content: center;
+		align-items: center;
+		margin: 0;
+	}
+
+	.product-gallery{
+		display: grid;
+		grid-template-columns: 1fr 1.45fr;
+		column-gap: 1.875rem;
+		place-items: center;
+	}
+
+
+	.gallery-wrap{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		row-gap: 1rem;
+	}
+
+}

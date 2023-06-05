@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KeyMaster</title>
+	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="../../css/info.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div class="container">
+			
+
+	
+		<nav class="navbar">
+			<div class="navbar-container">
+				<button class="navbar-btn-menu" id="menuButton">
+					<img class="menu-icon" src="../../images/icon-hamburger.svg" alt="Icono de menú">
+				</button>
+				<a href="#" class="logo navbar-logo">KeyMaster</a>
+				<ul class="nav-list">
+					<li>
+						<a href="../../index.html" class="nav-list-item">Inicio</a>
+					</li>
+					<li>
+						<a href="../productos.html" class="nav-list-item">Productos</a>
+					</li>
+					<li>
+						<a href="../contacto.html" class="nav-list-item">Contacto</a>
+					</li>
+				</ul>
+				<button class="navbar-btn-cart">
+					<img src="../../images/icon-cart.svg" alt="Icono de carrito">
+				</button>
+			</div>
+		</nav>
+	
+		<div class="hidden-container" id="mobileMenu">
+			<div class="navbar-mobile-menu">
+				<ul class="nav-list-mobile">
+					<li>
+						<a href="../../index.html" class="nav-list-item">Inicio</a>
+					</li>
+					<li>
+						<a href="../productos.html" class="nav-list-item">Productos</a>
+					</li>
+					<li>
+						<a href="../contacto.html" class="nav-list-item">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="hidden-container background-container">
+			<div class="shopping-cart-wrapper">
+				<div class="shopping-cart-container">
+					<section class="cart">
+						<div class="cart-header">
+							<p class="cart-list-size">
+								cart
+								(0)
+							</p>
+							<button class="remove-btn">
+								Eliminar todo
+							</button>
+						</div>
+						<div class="cart-list">
+							<p class="text-default empty-text">
+								Tu carrito está vacío
+							</p>
+						</div>
+						<div class="cart-footer">
+							<p class="text-default total-text">Total</p>
+							<p class="total-price">$0</p>
+						</div>
+					</section>
+					<a href="" class="btn-default buy-btn">Pagar</a>
+				</div>
+			</div>
+		</div>
+		
+	
+		<main class="main-container-wrapper">
+			<div class="main-container">
+
+				<div>
+					<a href="../productos.html" class="go-back-btn  btn-default">
+						<img src="../../images/icon-arrow-left.svg" alt="Icon de ir atrás">Volver
+					</a>
+					<section class="product-info">
+						<img src="../../images/products/product-analog-dreams/ad3.jpg" alt="" class="product-image">
+						<div class="product-info-boxtext">
+							<h1 class="product-title">GMK Analog Dreams</h1>
+							<p class="text-default">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum rem accusamus ex dolorum, repudiandae rerum exercitationem placeat tenetur.
+							</p>
+							<p class="product-price">$210.00</p>
+							<div class="product-buttons">
+								<div class="quantity-section">
+									<button class="quantity-btn" id="minus">
+										<img src="../../images/icon-minus.svg" alt="Minus icon">
+									</button>
+									<span id="num">1</span>
+									<button class="quantity-btn" id="plus">
+										<img src="../../images/icon-plus.svg" alt="Plus icon">
+									</button>
+								</div>
+								<button class="btn-default btn-styles">Agregar al carrito</button>
+							</div>
+						</div>
+					</section>
+				</div>
+	
+				<section class="features">
+					<div class="includes">
+						<h2 class="includes-title">Características</h2>
+						<ul class="includes-list">
+							<li class="includes-list-item">Lorem ipsum dolor</li>
+							<li class="includes-list-item">sit amet consectetur</li>
+							<li class="includes-list-item">Impedit natus vero</li>
+							<li class="includes-list-item">officiis obcaecati</li>
+						</ul>
+					</div>
+				</section>
+
+				<section class="product-gallery">
+					<div class="gallery-wrap">
+						<img src="../../images/products/product-analog-dreams/ad1.jpg" alt="Primera imagen de galería" class="img-gallery">
+						<img src="../../images/products/product-analog-dreams/ad2.jpg" alt="Segunda imagen de galería" class="img-gallery">
+					</div>
+					<img src="../../images/products/product-analog-dreams/ad3.jpg" alt="Tercera imagen de galería" class="img-gallery">
+				</section>
+				
+				<section class="slogan-section">
+					<img class="slogan-image" src="../../images/products/img-slogan.jpg" alt="Manos sobre un teclado">
+					<div class="slogan-content">
+						<h2 class="slogan-title">Descubre el poder de <span class="slogan-title-span">KeyMaster</span></h2>
+						<h3 class="slogan-subtitle">Lleva tu experiencia al siguiente nivel</h3>
+						<p class="text-default text-slogan">
+							Nuestra tienda ofrece una amplia selección de teclados diseñados para satisfacer las necesidades de los usuarios más exigentes. Encontrarás una variedad de opciones para mejorar tu productividad, comodidad y estilo al trabajar o jugar.
+						</p>
+					</div>
+				</section>
+	
+			</div>
+		</main>
+	
+		<footer>
+			<div class="footer-container">
+				<hr class="footer-line">
+				<div class="footer-content">
+					<section class="footer-section">
+						<a href="#" class="logo footer-logo">KeyMaster</a>
+						<ul class="nav-list">
+							<li>
+								<a href="../../index.html" class="nav-list-item">Inicio</a>
+							</li>
+							<li>
+								<a href="../productos.html" class="nav-list-item">Productos</a>
+							</li>
+							<li>
+								<a href="../contacto.html" class="nav-list-item">Contacto</a>
+							</li>
+						</ul>
+					</section>
+					<p class="text-default footer-text">KeyMaster es tu destino confiable para encontrar los teclados perfectos que se adaptan a tus necesidades y estilo. Únete a nuestra comunidad de entusiastas por los teclados y descubre el poder de KeyMaster en tus manos.</p>
+
+					<section class="footer-icons">
+						<a href="https://www.facebook.com/" target="_blank" class="footer-icon">
+							<img src="../../images/icon-facebook.svg" alt="Logo de facebook">
+						</a>
+						<a href="https://www.twitter.com/" target="_blank" class="footer-icon">
+							<img src="../../images/icon-twitter.svg" alt="Logo de twitter">
+						</a>
+						<a href="https://www.instagram.com/" target="_blank" class="footer-icon">
+							<img src="../../images/icon-instagram.svg" alt="Logo de instagram">
+						</a>
+					</section>
+				</div>
+			</div>
+		</footer>
+	
+	</div>
+	
+	<script type="text/javascript" src="../../actions.js"></script>
+	
+	</body>
+	</html>

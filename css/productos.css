@@ -1,0 +1,132 @@
+@import url(./style.css);
+
+.products-header{
+	width: 100%;
+	background-color: var(--lightgray);
+}
+
+.products-header-container{
+	height: 6.375rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.products-header-title{
+	font-size: 1.3rem;
+	text-align: center;
+	color: var(--mintgreen);
+
+}
+
+.keyboards-section{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.keyboard-wrapper{
+	padding-bottom: 2.4rem;
+	border-bottom: 1px solid var(--lightgray);
+	margin: 0.5rem;
+}
+
+.keyboard-image{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 1.3rem;
+	margin-top: 0.5rem;
+
+	background-image: url("../images/products/product-analog-dreams/ad3.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	height: 7rem;
+}
+
+.keyboard-wrapper:nth-child(2) .keyboard-image{
+	background-image: url("../images/products/product-aluminum/a1.jpg");
+}
+
+.keyboard-wrapper:nth-child(3) .keyboard-image{
+	background-image: url("../images/products/product-black-chroma/bc1.jpg");
+}
+
+.keyboard-wrapper:nth-child(4) .keyboard-image{
+	background-image: url("../images/products/product-burgundy/b2.jpg");
+}
+
+.keyboard-wrapper:nth-child(5) .keyboard-image{
+	background-image: url("../images/products/product-mcflurry/mc2.jpg");
+}
+
+.keyboard-wrapper:nth-child(6) .keyboard-image{
+	background-image: url("../images/products/product-handarbeit/h3.jpg");
+}
+
+.keyboard-wrapper:nth-child(7) .keyboard-image{
+	background-image: url("../images/products/product-japanese/j1.jpg");
+}
+
+.keyboard-wrapper:nth-child(8) .keyboard-image{
+	background-image: url("../images/products/product-psittacus/p1.jpg");
+}
+
+
+
+.keyboard-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.keyboard-title{
+	font-size: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 7rem;
+}
+
+.keyboard-status{
+	font-size: 0.75rem;
+	letter-spacing: 0.1em;
+	font-weight: 400;
+	display: block;
+	text-transform: uppercase;
+}
+
+.keyboard-name{
+	font-weight: 600;
+	margin-top: 0.4rem;
+}
+
+.keyboard-price{
+	font-size: 0.7;
+	line-height: 1.5;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+}
+
+.btn-product{
+	font-size: .6em;
+	height: 2rem;
+}
+
+@media (min-width: 540px) {
+	.keyboard-title{
+		width: 14rem;
+	} 
+}
+
+
+@media (min-width: 768px) {
+	.keyboards-section{
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+}
