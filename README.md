@@ -24,6 +24,13 @@ Tecnologías usadas en este proyecto:
 * CSS
 * JavaScript
 
+## Documentación
+![link](https://github.com/sd-rv/keymaster-website/blob/main/keymaster-documentaci%C3%B3n.pdf)
+
+Sitio web
+
+![link](https://sd-rv.github.io/keymaster-website/)
+
 ## Estado del proyecto
 En progreso. 
 
