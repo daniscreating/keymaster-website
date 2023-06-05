@@ -24,5 +24,8 @@ Tecnologías usadas en este proyecto:
 * CSS
 * JavaScript
 
+## Estado del proyecto
+En progreso. 
+
 
 
