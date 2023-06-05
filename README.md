@@ -1,6 +1,6 @@
-# KEYMASTER 
+# KeyMaster 
 
-![DiseñoImg]()
+![DiseñoImg](https://github.com/sd-rv/keymaster-website/blob/main/images/design-desktop.png)
 
 ## Información General
 KeyMaster es un página web E-commerce de teclados de computadora para el Proyecto Final del Bootcamp Frontend de Código Facilito. La página se estructura en Inicio, Productos y Contacto.
@@ -23,6 +23,9 @@ Tecnologías usadas en este proyecto:
 * HTML
 * CSS
 * JavaScript
+
+## Estado del proyecto
+En progreso. 
 
 
 
