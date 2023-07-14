@@ -1,6 +1,6 @@
 # KeyMaster 
 
-![DiseñoImg](https://github.com/sd-rv/keymaster-website/blob/main/images/design-desktop.png)
+![DiseñoImg](https://github.com/daniscreating/keymaster-website/blob/main/images/design-desktop.png)
 
 ## Información General
 KeyMaster es un página web E-commerce de teclados de computadora para el Proyecto Final del Bootcamp Frontend de Código Facilito. La página se estructura en Inicio, Productos y Contacto.
@@ -25,11 +25,11 @@ Tecnologías usadas en este proyecto:
 * JavaScript
 
 ## Documentación
-![link](https://github.com/sd-rv/keymaster-website/blob/main/keymaster-documentaci%C3%B3n.pdf)
+![link](https://github.com/daniscreating/keymaster-website/blob/main/keymaster-documentaci%C3%B3n.pdf)
 
 Sitio web
 
-![link](https://sd-rv.github.io/keymaster-website/)
+![link](https://daniscreating.github.io/keymaster-website/)
 
 ## Estado del proyecto
 En progreso. 
